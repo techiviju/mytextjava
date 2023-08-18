@@ -1,0 +1,10 @@
+// write a program to detect user enter the nu is integer or not//
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("enter nu");
+		Scanner sc=new Scanner(System.in);
+		System.out.println(sc.hasNextInt());
+			}
+}

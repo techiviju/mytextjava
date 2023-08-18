@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    System.out.println("welcome  \nenter 5 sub marks");
+    System.out.println("math");
+    Scanner sc=new Scanner(System.in);
+    int sub1= sc.nextInt();
+    
+    System.out.println("c");
+    int sub2=sc.nextInt();
+    
+    System.out.println("c++"); 
+    int sub3=sc.nextInt();
+    
+    System.out.println("java");
+    int sub4=sc.nextInt();
+    
+    System.out.println("python");
+    int sub5=sc.nextInt();
+    
+    int t=sub1+sub2+sub3+sub4+sub5;
+    System.out.println("the total marks is "+t);
+    
+    float per;
+   per=(t/500.0f)*100;
+    System.out.println("the percentage is :");
+     System.out.print(per);
+    
+    }
+}
+

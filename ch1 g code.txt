@@ -1,0 +1,23 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		
+		
+// 		int s1=98,s2=68,s3=96,s4=85,s5=88;
+// 		int t=s1+s2+s3+s4+s5;
+// 		float per;
+// 		per=(t/500.0f)*100;
+// 		System.out.println(per);
+		
+// 		int age=;
+// 		boolean licence=false;
+// 		if(age>=9 || licence)
+// 		{
+// 		    System.out.println("drive the car");
+		   
+// 		}
+// 		else
+// 		System.out.println("not drive");
+	}
+}

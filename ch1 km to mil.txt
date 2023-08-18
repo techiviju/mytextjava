@@ -1,0 +1,14 @@
+// write a program to convert km to mil
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("enter your KM");
+		Scanner sc=new Scanner(System.in);
+		float km= sc.nextFloat();
+		float mil;
+		mil=km / 1.609344f;
+		System.out.println("mil is = " +mil);
+		
+	}
+}
