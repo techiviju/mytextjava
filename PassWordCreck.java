@@ -1,7 +1,7 @@
 // java Password Crack program by rohit
 
 import java.util.Scanner;
-class Uy1
+class PassWordCreck
 {  
   static void max(int a,int pass)
  {
