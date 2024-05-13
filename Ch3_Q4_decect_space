@@ -1,0 +1,17 @@
+public class Detect_space {
+    public static void main(String[] args) {
+        String name="vijay Anil chaudhari";
+        boolean hasdspc=name.contains("  ");
+        boolean hastspc=name.contains("   ");
+
+        if(hasdspc){
+            System.out.println("double space is availabel ");
+        }
+        if(hastspc){
+            System.out.println("triple space is available ");
+        }
+        else {
+            System.out.println("not detected ");
+        }
+    }
+}
