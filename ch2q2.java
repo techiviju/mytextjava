@@ -3,14 +3,15 @@
 public class Main
 {
 	public static void main(String[] args) {
-	    char grade='B';
-	    grade=(char)(grade+8);
-	    System.out.println(grade);
-	    
-	    // encrepted grade///
-	    System.out.print("the encrepted grade is =");
-	    grade=(char)(grade-8);
-	    System.out.println(grade);
+	  char g,e,d;
+        Scanner sc=new Scanner(System.in);
+        g=sc.next().charAt(0);
+        
+        e=(char)(g+8);
+        System.out.println("Encrypted = "+e);
+        
+        d=(char)(e-8);
+        System.out.println("decrypted is = "+d);
 	    
 	
 	}
